@@ -1,0 +1,104 @@
+:root{
+    --blue: #40e0d0;
+    --light-blue: #b2ffff;
+
+    --h1-font-size: 40px;
+    --h2-font-size: 32px;
+    --small-font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section{
+    padding: 70px 0;
+}
+
+section .section.title{
+    font-size: VAR(--h2-font-size);
+    font-weight: BOLD;
+    TEXT-TRANSFORM: uppercase;
+}
+
+.btn-blue{
+    background-color: var(--blue);
+    color: white;
+}
+
+.text-blue{
+    color: var(--blue);
+}
+
+.fs-7{
+    font-size: var(--small-font-size);
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: var(--blue);
+}
+
+/* navbar */
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:active{
+    color: var(--blue);
+}
+
+/* hero */
+
+.hero .hero-title{
+    font-size: var(--h1-font-size);
+}
+
+.hero .hero-skill{
+    color: black;
+}
+
+.hero .hero-skill:hover{
+    color: var(--blue);
+}
+
+.hero-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.hero .profile-image{
+    width: 90%;
+    
+}
+
+.portfolio{
+    background-color: #f9f6f2;
+}
+
+.contact{
+    background-color: #e2e2e2;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    color: white;
+}
+
